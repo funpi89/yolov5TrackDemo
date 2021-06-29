@@ -8,11 +8,17 @@
 * usage:
 
 git clone https://github.com/ultralytics/yolov5
+
 git clone https://github.com/funpi89/yolov5TrackDemo.git
+
 sudo mv yolov5TrackDemo/moto_car_tracker.py yolov5/
+
 sudo mv yolov5TrackDemo/opencv_track.py yolov5/
+
 sudo mv yolov5TrackDemo/tracker.py yolov5/
+
 cd yolov5
+
 sh weights/download_weights.sh
 
 使用yolov5: python moto_car_tracker.py --weights yolov5x.pt --img 1280 --conf 0.4 --source highway.mp4  --view-img
